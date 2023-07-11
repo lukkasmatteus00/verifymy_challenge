@@ -70,6 +70,7 @@ Record any defects or improvements found during the process.
   * It does not make sense to search for users by including the password as a query parameter in the service.
 
 >3° part:
+
  Create automation tests for the user interface (UI).
 
 - Register two new accounts (with balances).
