@@ -1,0 +1,55 @@
+{
+  "name": "verifymy_challenge",
+  "version": "1.0.0",
+  "description": "This project showcases my expertise in ensuring the quality and reliability of software applications",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run -b chrome",
+    "cy:run:firefox": "cypress run -b firefox",
+    "cy:run:edge": "cypress run -b edge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukkasmatteus00/verifymy_challenge.git"
+  },
+  "keywords": [
+    "cypress.io",
+    "cucumber",
+    "testing",
+    "e2e",
+    "api"
+  ],
+  "author": "Lucas Matheus de Souza Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukkasmatteus00/verifymy_challenge/issues"
+  },
+  "homepage": "https://github.com/lukkasmatteus00/verifymy_challenge#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress": "^12.7.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "dependencies": {
+    "cypress-failed-log": "^2.7.0",
+    "cypress-log-to-output": "^1.1.2",
+    "date-and-time": "^2.3.0",
+    "leite": "^0.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.{js,ts}",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".feature"
+    },
+    "nonGlobalStepDefinitions": true
+  }
+}

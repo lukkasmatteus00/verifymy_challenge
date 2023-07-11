@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "email": "jonathanbasso@gmail.com",
+    "full_name": "Diogo Gava",
+    "account": {
+      "number": 569,
+      "digit": "3",
+      "amount": "1.000,00"
+    }
+  },
+  {
+    "id": 2,
+    "email": "risrasmussen@gmail.com",
+    "full_name": "Enzo Magaldi",
+    "account": {
+      "number": 507,
+      "digit": "1",
+      "amount": "1.000,00"
+    }
+  }
+]
